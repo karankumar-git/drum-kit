@@ -1,25 +1,3 @@
-
-// addEventListener(type, listener);
-// addEventListener(type, listener, options);
-// addEventListener(type, listener, useCapture);
-
-/*
-
----one way to add an event 
-
-let button = document.querySelector("button").addEventListener("mouseover", handleClick);
-function handleClick() {
-    alert("i got clicked");
-}
-
----efficient way to add a event
-
-let button = document.querySelector("button").addEventListener("mouseover",functio(){
-    alert("i got clicked");
-});
-
-*/
-
 var drumlist = {
     w: "tom-1",
     a: "tom-2",
